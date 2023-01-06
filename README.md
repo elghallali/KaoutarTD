@@ -28,7 +28,10 @@ classDiagram
     BankAccount : +int mois
     BankAccount : +int annee
 ```
-
+```
+flowchart TD
+    Start --> Stop
+```
 
 1. Implémenter cette classe en Python.
 2. Dans la méthode de construction de la classe, prévoir un dispositif pour éviter les dates impossibles (du genre 32/14/2020). Dans ce cas, la création doit provoquer une erreur, chose possible grâce à l’instruction raise (documentation à rechercher !).
