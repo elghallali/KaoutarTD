@@ -23,7 +23,7 @@ def proportion(chaine, sequence):
     # On renvoie la proportion de séquence dans la chaîne
     return 100*occurrences / len(chaine)
 
-def afficher(chaine, sequence,proportion):
+def afficher(chaine, sequence, proportion):
     print(f"chaîne : {chaine}")
     print(f"séquence : {sequence}")
     print(f"Il y a {proportion:.2f} % de '{sequence}' dans votre chaîne.")
