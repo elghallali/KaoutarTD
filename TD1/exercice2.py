@@ -37,6 +37,6 @@ class Date:
 
 d1 = Date(30, 1, 1989)
 d2 = Date(3, 1, 1989)
-
+print(d1)
 print(d1 < d2)  # Affiche: True
 print(d2 < d1)  # Affiche: False
