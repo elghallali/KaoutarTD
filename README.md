@@ -20,7 +20,8 @@ Il y a 10.53 % de "ca" dans votre chaîne.
 ## Exercice 2 :
 Soit la classe Date définie par le diagramme de classe UML suivant :
 
-```
+
+```mermaid
 classDiagram
     class Date
     BankAccount : +int jour
