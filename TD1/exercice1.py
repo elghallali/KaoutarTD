@@ -35,4 +35,4 @@ chaine, sequence = saisie()
 proportion = proportion(chaine, sequence)
 
 # On affiche le résult
-print(afficher(chaine, sequence, proportion))
+afficher(chaine, sequence, proportion)
