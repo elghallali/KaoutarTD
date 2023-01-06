@@ -21,12 +21,13 @@ Il y a 10.53 % de "ca" dans votre chaîne.
 Soit la classe Date définie par le diagramme de classe UML suivant :
 
 
-```
+```mermaid
 classDiagram
-    class Date
-    Date : +int jour
-    Date : +int mois
-    Date : +int annee
+    class Date{
+    +jour: int
+    +mois : int
+    +annee : int
+    }
 ```
 
 
