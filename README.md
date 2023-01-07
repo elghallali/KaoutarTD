@@ -40,8 +40,8 @@ classDiagram
 
 ## Exercice 3 : Classe Compte bancaire :
 
-1. Créer une classe Python nommée CompteBancaire qui représente un compte bancaire, ayant pour attributs : numeroCompte (type numérique ) , nom (nom du propriétaire du compte du type chaine), solde.
-2. Créer un constructeur ayant comme paramètres : numeroCompte, nom, solde.
+1. Créer une classe Python nommée `CompteBancaire` qui représente un compte bancaire, ayant pour attributs : `numeroCompte` (type numérique ) , `nom` (nom du propriétaire du compte du type chaine), `solde`.
+2. Créer un `constructeur` ayant comme paramètres : `numeroCompte`, `nom`, `solde`.
 3. Créer une méthode `Versement()` qui gère les versements.
 4. Créer une méthode `Retrait()` qui gère les retraits.
 5. Créer une méthode `Agios()` permettant d'appliquer les agios à un pourcentage de 5 % du solde
