@@ -1,4 +1,5 @@
-# KaoutarTD
+# TD 1 de Kaoutar
+
 ## Exercice 1 :
 Un programme principal saisit une chaîne d'ADN valide et une séquence d'ADN valide (valide signifie qu'elles ne sont pas vides et sont formées exclusivement d'une combinaison arbitraire de "a", "t", "g" ou "c").
 
