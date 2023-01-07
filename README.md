@@ -36,6 +36,7 @@ classDiagram
 3. Ajouter une méthode __repr__ permettant d’afficher la date sous la forme "25 janvier 1989". Les noms des mois seront définis en tant qu’attribut de classe à l’aide d’une liste.
 4. Ajouter une méthode __lt__qui permet de comparer deux dates.
 5. L’expression d1 < d2 ( d1 et d2 étant deux objets de type Date ) doit grâce à cette méthode renvoyer True ou False.
+
 ## Exercice 3 : Classe Compte bancaire :
 1. Créer une classe Python nommée CompteBancaire qui représente un compte bancaire, ayant pour attributs : numeroCompte (type numérique ) , nom (nom du propriétaire du compte du type chaine), solde.
 2. Créer un constructeur ayant comme paramètres : numeroCompte, nom, solde.
