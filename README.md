@@ -44,7 +44,7 @@ classDiagram
 2. Créer un `constructeur` ayant comme paramètres : `numeroCompte`, `nom`, `solde`.
 3. Créer une méthode `Versement()` qui gère les versements.
 4. Créer une méthode `Retrait()` qui gère les retraits.
-5. Créer une méthode `Agios()` permettant d'appliquer les agios à un pourcentage de 5 % du solde
+5. Créer une méthode `Agios()` permettant d'appliquer les agios à un pourcentage de `5 %` du solde
 6. Créer une méthode `afficher()` permettant d’afficher les détails sur le compte
 7. Donner le code complet de la classe CompteBancaire.
 
