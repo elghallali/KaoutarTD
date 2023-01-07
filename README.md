@@ -48,3 +48,50 @@ classDiagram
 6. Créer une méthode `afficher()` permettant d’afficher les détails sur le compte
 7. Donner le code complet de la classe CompteBancaire.
 
+# TD 2 de Kaoutar
+
+## Exercice 1
+
+1. Définir une `classe Book` avec les attributs suivants : `Title`, `Author` (Nom complet), `Price`.
+2. Définir un constructeur ayant comme attributs : `Title`, `Author`, `Price`.
+3. Définir la méthode `View()` pour afficher les informations d'une instance object Book.
+4. Ecrire un programme pour `tester la classe Book`.
+
+## Exercice 2
+
+Write a program to build a simple Student Management System using Python which can perform the following operations:
+
+1. `Accept` : This method takes details from the user like name, roll number, and marks for two different subjects.
+2. `Display` : This method displays the details of every student.
+3. `Search` : This method searches for a particular student from the list of students. This method will ask the user for roll number and then search according to the roll number
+4. `Delete` : This method deletes the record of a particular student with a matching roll number.
+5. `Update` : This method updates the roll number of the student. This method will ask for the old roll number and new roll number. It will replace the old roll number with a new roll number.
+
+## Exercice 3
+
+Décrire ce que fait ce programme et son output :
+
+```python
+def SameZeroOne(tab, n):
+    somme = 0
+    fin = -1
+    for i in range(0, n-1):
+        somme = -1 if (tab[i]== 0 ) else 1
+
+        # parcourir les sous tableaux
+        for j in range(i + 1, n):
+            somme = somme + (-1) if (tab[j] == 0) else somme + 1
+            if (somme == 0 and fin < j-i + 1):
+                fin = j - i + 1
+                debut = i
+    
+    if (fin == -1):
+        print("tableau n'exist pas")
+    else:
+        print(debut, " à ", debut+ fin -1)
+    return fin
+
+T = [0, 0, 1, 1, 0]
+SameZeroOne(T, len(T))
+
+```
