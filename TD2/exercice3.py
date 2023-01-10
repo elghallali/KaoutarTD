@@ -17,5 +17,5 @@ def SameZeroOne(tab, n):
         print(debut, " à ", debut+ fin -1)
     return fin
 
-T = [0, 0, 1, 1, 0, 1, 0, 1]
+T = [0, 0, 1, 1]
 SameZeroOne(T, len(T))
