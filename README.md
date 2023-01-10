@@ -96,3 +96,8 @@ T = [0, 0, 1, 1, 0]
 SameZeroOne(T, len(T))
 
 ```
+
+```
+
+Ce programme tester si ils existent des nombres différents de zéro dans une liste. Et retourner une chaîne de caractère: 
+```
