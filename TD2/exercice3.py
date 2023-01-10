@@ -10,12 +10,12 @@ def SameZeroOne(tab, n):
             if (somme == 0 and fin < j-i + 1):
                 fin = j - i + 1
                 debut = i
-    
+
     if (fin == -1):
         print("tableau n'exist pas")
     else:
         print(debut, " à ", debut+ fin -1)
     return fin
 
-T = [0, 0, 1, 1, 0]
+T = [0, 0, 1, 1, 0, 1, 0, 1]
 SameZeroOne(T, len(T))
