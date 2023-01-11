@@ -85,7 +85,7 @@ def SameZeroOne(tab, n):
             if (somme == 0 and fin < j-i + 1):
                 fin = j - i + 1
                 debut = i
-    
+
     if (fin == -1):
         print("tableau n'exist pas")
     else:
@@ -97,6 +97,8 @@ SameZeroOne(T, len(T))
 
 ```
 
-```
-Ce programme tester si ils existent des nombres différents de zéro dans une liste. Et retourner une chaîne de caractère: 
-```
+
+ Ce programme tester si ils existent des nombres différents de zéro dans une liste. Et retourner une chaîne de caractère:
+
++ Si ils existent des nombres différents de zéro le programme retourner un itervalle du début jusqu'à la position de la dernier nombre différent de zéro, cet intervalle détermine un tableau.
++ Si n'exist aucun nombre différent de zéro le programme retourner la chaîne de caractère: "tableau n'exist pas".
