@@ -1,6 +1,8 @@
-# TD 1 de Kaoutar
+# TDs de Kaoutar
 
-## Exercice 1
+## TD 1 de Kaoutar
+
+### Exercice 1 :
 
 Un programme principal saisit une chaîne d'ADN valide et une séquence d'ADN valide (valide signifie qu'elles ne sont pas vides et sont formées exclusivement d'une combinaison arbitraire de "a", "t", "g" ou "c").
 
@@ -20,7 +22,7 @@ séquence : ca
 Il y a 10.53 % de "ca" dans votre chaîne.
 ```
 
-## Exercice 2
+### Exercice 2 :
 
 Soit la classe Date définie par le diagramme de classe UML suivant :
 
@@ -39,7 +41,7 @@ classDiagram
 4. Ajouter une méthode `__lt__` qui permet de comparer deux dates.
 5. L’expression d1 < d2 ( d1 et d2 étant deux objets de type Date ) doit grâce à cette méthode renvoyer True ou False.
 
-## Exercice 3 : Classe Compte bancaire
+### Exercice 3 : Classe Compte bancaire
 
 1. Créer une classe Python nommée `CompteBancaire` qui représente un compte bancaire, ayant pour attributs : `numeroCompte` (type numérique ) , `nom` (nom du propriétaire du compte du type chaine), `solde`.
 2. Créer un `constructeur` ayant comme paramètres : `numeroCompte`, `nom`, `solde`.
@@ -49,16 +51,16 @@ classDiagram
 6. Créer une méthode `afficher()` permettant d’afficher les détails sur le compte
 7. Donner le code complet de la classe CompteBancaire.
 
-# TD 2 de Kaoutar
+## TD 2 de Kaoutar :
 
-## Exercice 1
+### Exercice 1 :
 
 1. Définir une `classe Book` avec les attributs suivants : `Title`, `Author` (Nom complet), `Price`.
 2. Définir un constructeur ayant comme attributs : `Title`, `Author`, `Price`.
 3. Définir la méthode `View()` pour afficher les informations d'une instance object Book.
 4. Ecrire un programme pour `tester la classe Book`.
 
-## Exercice 2
+### Exercice 2 :
 
 Write a program to build a simple Student Management System using Python which can perform the following operations:
 
@@ -68,7 +70,7 @@ Write a program to build a simple Student Management System using Python which c
 4. `Delete` : This method deletes the record of a particular student with a matching `roll number`.
 5. `Update` : This method updates the `roll number` of the student. This method will ask for the `old roll number` and `new roll number`. It will replace the `old roll number` with a `new roll number`.
 
-## Exercice 3
+### Exercice 3 :
 
 Décrire ce que fait ce programme et son output :
 
