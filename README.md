@@ -61,7 +61,7 @@ classDiagram
     +versement(): float
     +retrait(): float
     +agios(): float
-    afficher(): string
+    +afficher(): string
     }
 ```
 
